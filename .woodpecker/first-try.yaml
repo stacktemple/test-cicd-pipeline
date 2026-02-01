@@ -8,3 +8,5 @@ steps:
     commands:
       - ls
       - node --version
+      - npm install
+      - npm run start
