@@ -1,0 +1,10 @@
+when:
+  - event: push
+    branch: main
+
+steps:
+  test-nodejs:
+    image: node:16-alpine
+    commands:
+      - ls
+      - node --version
